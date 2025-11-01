@@ -15,7 +15,7 @@ function App() {
     // Create mailto link
     const subject = `Contact from ${name}`;
     const body = `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
-    const mailtoLink = `mailto:info@hegemon.ltd?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:info@plutarch.ltd?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     
     window.location.href = mailtoLink;
     setShowContactModal(false);
@@ -28,13 +28,13 @@ function App() {
       
       <div className="content-card">
         <div className="card-header">
-          <h1>Hegemon</h1>
+          <h1>Plutarch</h1>
         </div>
         
         <div className="card-content">
           <div className="text-section">
             <p>
-              Hegemon automates modular, high-throughput data infrastructure frameworks 
+              Plutarch automates modular, high-throughput data infrastructure frameworks 
               engineered for deployment at both institutional and hyperscale enterprise levels, 
               streamlining computational intelligence pipelines and enabling endogenous 
               AI-native inference across heterogenous data environments.
@@ -44,7 +44,7 @@ function App() {
           <div className="text-section">
             <p>
               Leveraging a systems-level understanding of data lifecycle topologies, 
-              Hegemon automates the structural disaggregation of monolithic or entangled 
+              Plutarch automates the structural disaggregation of monolithic or entangled 
               legacy systems and the semantic rationalization of hybrid architectures, 
               reconstituted into cloud-agnostic, container-orchestrated microservice 
               ecosystems designed to support schema mutability, semantic versioning, 
@@ -54,7 +54,7 @@ function App() {
           
           <div className="text-section">
             <p>
-              Hegemon's approach facilitates multi-domain semantic interoperability, 
+              Plutarch's approach facilitates multi-domain semantic interoperability, 
               enabling deep data entanglement and harmonization without compromising 
               the integrity of primary source constraints, governance frameworks, 
               or critical path dependencies.
@@ -78,7 +78,7 @@ function App() {
         <div className="contact-modal-overlay" onClick={() => setShowContactModal(false)}>
           <div className="contact-modal" onClick={(e) => e.stopPropagation()}>
             <div className="modal-header">
-              <h2>Contact Hegemon</h2>
+              <h2>Contact Plutarch</h2>
               <button 
                 className="close-button"
                 onClick={() => setShowContactModal(false)}
@@ -125,6 +125,20 @@ function App() {
           </div>
         </div>
       )}
+      
+      {/* Footer */}
+      <footer style={{
+        position: 'absolute',
+        bottom: '20px',
+        left: '50%',
+        transform: 'translateX(-50%)',
+        fontSize: '10px',
+        color: 'rgba(255, 255, 255, 0.5)',
+        fontFamily: 'Space Grotesk, sans-serif',
+        textAlign: 'center'
+      }}>
+        © 2025 Plutarch LLC. All rights reserved.
+      </footer>
     </div>
   );
 }

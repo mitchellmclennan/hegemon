@@ -1,6 +1,6 @@
-# Hegemon WebApp
+# Plutarch WebApp
 
-A React-based single-page webapp showcasing Hegemon's AI-native data infrastructure frameworks.
+A React-based single-page webapp showcasing Plutarch's AI-native data infrastructure frameworks.
 
 ## Features
 
@@ -33,8 +33,8 @@ npm run build
 
 ## Domain Information
 
-- **URL**: WWW.HEGEMON.LTD
-- **Email**: info@hegemon.ltd
+- **URL**: WWW.PLUTARCH.LTD
+- **Email**: info@plutarch.ltd
 - **Registrar**: www.namecheap.com
 
 ## Project Structure
